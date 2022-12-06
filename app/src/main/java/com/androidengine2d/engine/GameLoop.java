@@ -1,7 +1,8 @@
-package com.androidengine2d;
+package com.androidengine2d.engine;
 
 import android.graphics.Canvas;
 import android.view.SurfaceHolder;
+import com.androidengine2d.engine.Game;
 
 public class GameLoop extends Thread {
     private static final double MAX_UPS = 60.0;
